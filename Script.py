@@ -140,4 +140,4 @@ I can't find the <b>{}</b> in my database! 🥲
 
 ᴅᴇᴠʟᴏᴘᴇʀ -
 <a href=https://telegram.me/Faheem21025492006/s>FAHEEM</a>
-<a href=https://telegram.me/Faheem21025492006>ᴀᴋs</a></b>"""
+<a href=https://telegram.me/Faheem21025492006>ANSARI</a></b>"""
