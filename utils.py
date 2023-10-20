@@ -250,6 +250,9 @@ def list_to_str(k):
 
     
 async def get_shortlink(url, api, link):
+shortlink = Shortlink(api_key=api, base_site=url)
+    link = await shortlink.convert(link)
+    return link
 
 def get_readable_time(seconds):
     periods = [('d', 86400), ('h', 3600), ('m', 60), ('s', 1)]
