@@ -87,7 +87,7 @@ CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 # Other
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", script.IMDB_TEMPLATE)
 FILE_CAPTION = environ.get("FILE_CAPTION", script.FILE_CAPTION)
-SHORTLINK_URL = environ.get("SHORTLINK_URL", "https://indianshortner.com")
+SHORTLINK_URL = environ.get("SHORTLINK_URL", "indianshortner.com")
 SHORTLINK_API = environ.get("SHORTLINK_API", "af3303df5528d3fa4ca4577184527e32896514ea")
 VERIFY_EXPIRE = int(environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 IS_VERIFY = is_enabled(environ.get("IS_VERIFY", "False"), False)
